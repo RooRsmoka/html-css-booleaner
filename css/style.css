@@ -1,0 +1,21 @@
+/*  Sezione header*/
+.pattern-image {
+    background: #4EA0FF url("../img/pattern.png") 30% 20%;
+    background-size: cover;
+    height: 150px;
+}
+
+.heading {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.author-section {
+    margin-top: 0;
+}
+
+.author {
+    color: #20A9E5;
+}
+/* / Sezione header*/

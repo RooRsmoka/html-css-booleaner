@@ -49,3 +49,19 @@ thead {
     background-color: yellow;
 }
 /* / Formattazione testi*/
+
+/* Sezione footer */
+.monitor-image {
+    background: url("../img/monitor.jpg") no-repeat;
+    background-size: contain;
+    color: white;
+    height: 200px;
+}
+
+.graph-image {
+    background: url("../img/graph.jpg") no-repeat;
+    background-size: contain;
+    color: white;
+    height: 200px;
+}
+/* / Sezione footer */

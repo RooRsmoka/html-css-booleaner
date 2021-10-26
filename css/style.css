@@ -1,14 +1,31 @@
-/*  Sezione header*/
-.pattern-image {
-    background: #4EA0FF url("../img/pattern.png") 30% 20%;
-    background-size: cover;
-    height: 150px;
+.container {
+    width: 1200px;
 }
 
-.heading {
+/*  Sezione header*/
+header {
+    background: #4EA0FF url("../img/pattern.png");
+    height: 100px;
+    background-size: 30%;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 40px;
+}
+
+h1 {
     font-family: 'Zen Old Mincho', serif;
-    font-size: 60px;
+    font-size: 32px;
     margin: 0;
+}
+
+.photos {
+    height: 300px;
+}
+
+.news-image {
+    height: 100%;
 }
 
 .author-section {
@@ -18,17 +35,27 @@
 .author {
     color: #20A9E5;
 }
+
 /* / Sezione header*/
 
+/* Sezione main*/
+ul {
+    padding-left: 15px;
+}
 /* Formattazione tabella */
 table {
-    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
 }
 
 thead {
     background-color: #20A9E5;
     color: white;
     text-align: left;
+}
+
+.table-text {
+    width: 50%;
 }
 
 .even {
@@ -50,18 +77,27 @@ thead {
 }
 /* / Formattazione testi*/
 
+/* / Sezione main*/
+
 /* Sezione footer */
 .monitor-image {
-    background: url("../img/monitor.jpg") no-repeat;
-    background-size: contain;
+    background: url("../img/monitor.jpg") no-repeat 50% 50%;
+    background-size: cover;
     color: white;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .graph-image {
-    background: url("../img/graph.jpg") no-repeat;
-    background-size: contain;
+    background: url("../img/graph.jpg") no-repeat 50% 50%;
+    background-size: cover;
     color: white;
-    height: 200px;
+    height: 250px;
+    width: 250px;
+}
+
+.inside {
+    padding-top: 5px;
+    padding-left: 15px;
 }
 /* / Sezione footer */
